@@ -48,17 +48,3 @@ return durum;
 /**
 * Motorun durdurulması 
 */
-public void durdur() {
-    calisiyor = false;
-    }
-    public String getMotorNo() {
-    // motor no getir
-    return motorNo;
-    }
-    @Override
-    public String toString() {
-    // durum belirlenmesi 
-    String durum = calisiyor ? "Motor Çalışıyor." : "Motor Çalışmıyor";
-    return durum;
-    }
-    }
